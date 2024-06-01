@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  POSTGRES_USERNAME: cG9zdGdyZQ==
+  POSTGRES_PASSWORD: cGFzc3dvcmQ=
+  AWS_BUCKET: arn:aws:s3:::bucket-5042-8792-8493-prj-3
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1.ccd3layh9ox7.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  PORT: "8100"
+metadata:
+  name: env-configmap
