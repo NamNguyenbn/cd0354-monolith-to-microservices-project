@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v4
 kind: Deployment
 metadata:
   labels:
@@ -15,7 +15,7 @@ spec:
         service: udagram-api-user
     spec:
       containers:
-      - image: namnguyen1997/udagram-api-user:v1
+      - image: namnguyen1997/udagram-api-user:v4
         name: udagram-api-user
         imagePullPolicy: Always  
         resources:
